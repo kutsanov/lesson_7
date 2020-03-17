@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainTabBarController.swift
 //  Lesson_7
 //
 //  Created by Vova Kutsanov on 17.03.2020.
@@ -8,17 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let contacts = ContactBook.lstContact()
-    
-        print(contacts)
-        
+
+        self.selectedIndex = 1
     }
 
-
 }
-
